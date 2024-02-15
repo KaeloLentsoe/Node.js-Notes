@@ -22,3 +22,21 @@ Due to its event-driven and non-blocking nature, Node.js is well-suited for buil
 ## Node.js is commonly used to build various types of applications;-
 
 including web servers, APIs, real-time applications (such as chat applications), and microservices. It has gained widespread popularity in the development community and is widely used in the creation of modern, efficient, and scalable web applications.
+
+## Who created Nodejs and why?
+
+**Node.js was created by Ryan Dahl, a software engineer, in 2009.** Ryan Dahl developed Node.js with the goal of addressing some of the limitations and challenges associated with traditional server-side development.
+
+**The motivation behind creating Node.js can be attributed to the following factors:**
+
+1. **Scalability:** Traditional server-side technologies, particularly those relying on thread-based models, faced challenges in handling a large number of concurrent connections efficiently. 
+
+- Node.js, with its event-driven, non-blocking architecture, was designed to be highly scalable and capable of handling a large number of concurrent connections without the need for a thread for each connection.
+
+2. **Asynchronous I/O:** Many web applications involve I/O operations, such as reading from databases or making network requests, which can be time-consuming. 
+
+- Node.js introduced an asynchronous, non-blocking I/O model, allowing developers to execute multiple operations simultaneously without waiting for each to complete. This approach enhances the overall performance and responsiveness of applications.
+
+3. **JavaScript on the server-side:** Ryan Dahl wanted to use JavaScript not only for client-side scripting but also on the server side. This allows developers to use a single language (JavaScript) throughout the entire stack, providing consistency and making it easier for developers to transition between client-side and server-side development.
+
+4. **Real-time applications:** With the rise of real-time web applications and the increasing demand for features like live updates and chat functionality, Node.js proved to be well-suited for building such applications due to its event-driven architecture.
