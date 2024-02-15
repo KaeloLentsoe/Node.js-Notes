@@ -1,8 +1,8 @@
-#Introduction to Day 1
+**Introduction to Day 1**
 
 Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser. It is built on the V8 JavaScript runtime engine, which is the same engine used by the Google Chrome browser to execute JavaScript code. Node.js enables server-side scripting and the development of scalable network applications.
 
-##Key features of Node.js include:
+**Key features of Node.js include:**
 
 1. **Event-driven architecture:** 
 Node.js is designed to be event-driven, making it well-suited for handling asynchronous operations. This is crucial for building scalable applications that can handle a large number of simultaneous connections.
@@ -19,6 +19,6 @@ Node.js allows developers to use JavaScript for both client-side and server-side
 5. **Scalability:** 
 Due to its event-driven and non-blocking nature, Node.js is well-suited for building scalable applications that can handle a large number of concurrent connections with relatively low resource usage.
 
-##Node.js is commonly used to build various types of applications;-
+**Node.js is commonly used to build various types of applications;-**
 
 including web servers, APIs, real-time applications (such as chat applications), and microservices. It has gained widespread popularity in the development community and is widely used in the creation of modern, efficient, and scalable web applications.
