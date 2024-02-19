@@ -105,5 +105,4 @@ When working with Node.js and Ethereum development, you may need libraries that 
     ```
 
 7. **Infura**: While not a library, Infura provides a reliable and scalable Ethereum and IPFS infrastructure that you can use in conjunction with web3 libraries to access the Ethereum network without running your own node.
-
 Make sure to check the documentation and examples provided by each library to understand how to integrate them into your Node.js application and interact with the Ethereum blockchain.
