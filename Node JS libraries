@@ -1,0 +1,65 @@
+## Node JS libraries
+
+Node.js has a vibrant ecosystem with a vast number of libraries (also known as packages or modules) available through npm (Node Package Manager). Here are some popular Node.js libraries commonly used in web development and other areas:
+
+1. **Express.js**: A minimal and flexible web application framework that provides a robust set of features for web and mobile applications.
+
+    ```bash
+    npm install express
+    ```
+
+2. **Socket.io**: Enables real-time, bidirectional and event-based communication. It is often used for building chat applications, online gaming, and collaborative tools.
+
+    ```bash
+    npm install socket.io
+    ```
+
+3. **Mongoose**: An elegant MongoDB object modeling tool for Node.js. It helps in interacting with MongoDB databases in a more structured way.
+
+    ```bash
+    npm install mongoose
+    ```
+
+4. **Lodash**: A utility library that provides helpful functions for common programming tasks, like manipulating arrays, objects, and strings.
+
+    ```bash
+    npm install lodash
+    ```
+
+5. **Body-parser**: Middleware to parse incoming request bodies in a middleware before your handlers, available under the `req.body` property.
+
+    ```bash
+    npm install body-parser
+    ```
+
+6. **Axios**: A promise-based HTTP client for the browser and Node.js, making it easy to send HTTP requests.
+
+    ```bash
+    npm install axios
+    ```
+
+7. **Nodemailer**: A module for Node.js applications to allow easy email sending.
+
+    ```bash
+    npm install nodemailer
+    ```
+
+8. **Joi**: A powerful schema description language and data validator for JavaScript objects.
+
+    ```bash
+    npm install joi
+    ```
+
+9. **Passport.js**: An authentication middleware for Node.js that supports various authentication strategies, including local authentication, OAuth, and others.
+
+    ```bash
+    npm install passport
+    ```
+
+10. **Winston**: A versatile logging library for Node.js, which allows for different transports (file, console, etc.) and log levels.
+
+    ```bash
+    npm install winston
+    ```
+
+These are just a few examples, and the Node.js ecosystem is constantly evolving with new libraries being developed. Depending on your specific needs, you may find many other useful libraries in the npm registry.
