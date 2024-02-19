@@ -96,3 +96,58 @@ Node.js includes the V8 JavaScript engine, the same engine used by the Google Ch
 4. **Development Workflow:** ECMAScript features, especially those introduced in ES6 and later versions, have had a significant impact on the development workflow in both the browser and server environments. Concepts like modules, arrow functions, and async/await, introduced in ECMAScript, are commonly used in Node.js applications.
 
 Developers working with Node.js are encouraged to be familiar with the ECMAScript specifications and the features introduced in each version. This knowledge helps them write more modern, concise, and efficient code, whether they are building server-side applications, command-line tools, or other types of software using Node.js.
+
+
+
+# What is Npm?
+
+npm, which stands for Node Package Manager, is the default package manager for the Node.js runtime environment. It is a command-line tool and an online repository of software packages for Node.js, where developers can find and share packages of code for their projects.
+
+Here's a brief overview of how npm works:
+
+1. **Package Installation:** Developers use npm to install and manage packages (libraries, frameworks, tools, etc.) for their Node.js projects. These packages are typically published on the npm registry, a centralized repository of Node.js packages.
+
+   ```bash
+   npm install package-name
+   ```
+
+2. **Package.json:** Each Node.js project typically includes a `package.json` file that describes the project and its dependencies. This file includes metadata about the project, such as the project name, version, entry points, and dependencies.
+
+   Developers can manually create a `package.json` file or use the following command to generate one interactively:
+
+   ```bash
+   npm init
+   ```
+
+3. **Dependency Management:** npm helps manage project dependencies by installing the required packages listed in the `package.json` file. It installs these packages into a `node_modules` directory within the project.
+
+   ```bash
+   npm install
+   ```
+
+   Running this command installs all the dependencies specified in the `package.json` file.
+
+4. **Versioning:** npm uses semantic versioning (SemVer) to specify and control the version of packages. Each package version consists of three numbers: `major.minor.patch`. Developers can define version ranges in the `package.json` file to indicate which versions of a package their project is compatible with.
+
+5. **Global Packages:** In addition to project-specific dependencies, npm allows the installation of packages globally, making them accessible across different projects. Global packages are often tools or utilities that developers use in their development environment.
+
+   ```bash
+   npm install -g package-name
+   ```
+
+6. **Scripts:** npm enables the execution of custom scripts defined in the `scripts` section of the `package.json` file. Common scripts include commands for running tests, building the project, and starting the application.
+
+   ```json
+   "scripts": {
+     "start": "node index.js",
+     "test": "mocha"
+   }
+   ```
+
+   Run a script with:
+
+   ```bash
+   npm run script-name
+   ```
+
+Overall, npm simplifies the process of managing dependencies, versioning, and scripts in Node.js projects, making it easier for developers to build, share, and collaborate on software projects.
