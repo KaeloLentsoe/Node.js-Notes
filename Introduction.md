@@ -1,4 +1,4 @@
-# Introduction to Day 1
+# Introduction to Node.js
 
 Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser. It is built on the V8 JavaScript runtime engine, which is the same engine used by the Google Chrome browser to execute JavaScript code. Node.js enables server-side scripting and the development of scalable network applications.
 
