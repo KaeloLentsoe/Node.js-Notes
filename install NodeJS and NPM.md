@@ -28,7 +28,7 @@ To install Node.js and npm on Windows, you can follow these steps:
      ```
    - To check the npm version, run:
      ```bash
-     npm -v
+     npm 
      ```
 
    If the installation was successful, you should see the versions of Node.js and npm printed in the console.
