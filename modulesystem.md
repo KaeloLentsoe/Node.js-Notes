@@ -96,11 +96,11 @@ The Node.js module system helps organize code, manage dependencies, and promote 
 
 
 
-## The CommonJS (Common JavaScript) specification
+# The CommonJS (Common JavaScript) specification
 
 The CommonJS (Common JavaScript) specification is a set of standards for JavaScript module systems, defining how modules should be structured and how they can be imported and exported. CommonJS was originally designed for server-side JavaScript environments, and it played a significant role in shaping the module system used by Node.js.
 
-# Key features of the CommonJS specification include:
+## Key features of the CommonJS specification include:
 
 1. **Module Definition:**
    - CommonJS modules are defined using the `module.exports` and `exports` objects. The `module.exports` object is used to export values from a module, while the `exports` object is a shorthand for `module.exports`.
